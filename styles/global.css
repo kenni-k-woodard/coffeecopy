@@ -33,3 +33,9 @@ header .logo {
 main {
     padding: 20px;
 }
+
+#navBar {
+    display: grid;
+    background-color: navy;
+    color: lightblue;
+}
