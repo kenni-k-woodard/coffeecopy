@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <h3>Welcome to the Coffeeplace, adventure awaits!</h3>
+        </header>
 
-</head>
+        <main>
+            <div id="navBar">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Subscription Club</a>
+                <a href="#">Rewards</a>
+                <a href="#">The Story</a>
+                <a href="#">Contact</a>
+            </div>
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
+            <div id="promo">
+                <img src="http://placekitten.com/1300/600" />
+            </div>
 
-    <main>
+            <div id="intro">
+                <h2>Brew Your Happy Place</h2>
+                <p>
+                    This is an intro paragraph about the company. Briefly touches upon what their
+                    main values are.
+                </p>
+                <h2>Your Expedition Into The Coffeeverse Awaits</h2>
+                <p>Choose Your Coffee Adventure or Shop All Coffees</p>
+                <button id="exploreAllCoffeesBtn">Explore All Coffees</button>
+            </div>
 
-    </main>
-
-</body>
-
+            <div class="container">
+                <div class="churro">Image of coffee</div>
+                <div class="pastry"></div>
+                <div class="bourbon"></div>
+                <div class="alcohol"></div>
+                <div class="coconut"></div>
+                <div class="tropical"></div>
+            </div>
+        </main>
+    </body>
 </html>

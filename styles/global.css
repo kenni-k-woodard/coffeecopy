@@ -33,3 +33,41 @@ header .logo {
 main {
     padding: 20px;
 }
+
+#navBar {
+    display: flex;
+    gap: 10px;
+    background-color: navy;
+    color: lightblue;
+    height: 58px;
+}
+
+h2 {
+    background-color: navy;
+    color: lightblue;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+    background-color: navy;
+}
+
+p {
+    color: white;
+}
+
+#exploreAllCoffeesBtn {
+    background-color: orange;
+    color: white;
+}
+.container {
+    display: grid;
+}
+
+.churro {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
